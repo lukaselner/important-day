@@ -1,4 +1,4 @@
-# fn-important-day
+# Important Days with translation
 
 A simple PHP function for formatting dates into a localized long format (day name, day, month name, year). Available in Czech and English versions.
 
