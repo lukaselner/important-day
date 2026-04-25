@@ -4,22 +4,22 @@ A simple PHP function for formatting dates into a localized long format (day nam
 
 ## Versions
 
-- **Czech** — `cs/fn-important-day.php`
-- **English** — `en/fn-important-day.php`
+- **Czech** — `cs/important-day.php`
+- **English** — `en/important-day.php`
 
 ## Example
 
 Czech version:
 
     <?php
-    require_once 'cs/fn-important-day.php';
+    require_once 'cs/important-day.php';
     echo importantDay('1970-01-01');
     // Output: Čtvrtek, 1. ledna 1970
 
 English version:
 
     <?php
-    require_once 'en/fn-important-day.php';
+    require_once 'en/important-day.php';
     echo importantDay('1970-01-01');
     // Output: Thursday, January 1, 1970
 
@@ -28,7 +28,7 @@ English version:
 Include the desired language version into your project and call the function with a date string parsable by PHP's `date_create()`:
 
     <?php
-    require_once 'cs/fn-important-day.php';
+    require_once 'cs/important-day.php';
     echo importantDay('1970-01-01');
 
 The function returns `false` if the input cannot be parsed as a valid date.
