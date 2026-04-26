@@ -1,6 +1,6 @@
 <?php
 /*
-PHP function - Important Day with translation
+PHP function - Important Days with translation
 Author: Lukas Elner
 E-mail: lukas@elner.cz
 Web: lukaselner.cz
